@@ -1,0 +1,26 @@
+<script>
+// Function to get the browser language
+    function getBrowserLanguage() {
+      return navigator.language || navigator.userLanguage;
+    }
+    
+    // Function to redirect to page based on language
+    function redirectToPageByLanguage() {
+      var language = getBrowserLanguage();
+      
+      if (language.startsWith('en')) {
+        // English language detected, redirect to English page
+        window.location.href = '/pages/en';
+      } else if (language.startsWith('ru')) {
+        // Russian language detected, redirect to Russian page
+        window.location.href = '/pages/ru';
+      } else {
+        // Default to English if language not detected or unsupported
+        window.location.href = '/pages/en';
+      }
+    }
+    
+    // Call the function to redirect to the appropriate page based on language
+    redirectToPageByLanguage();
+    
+    </script>
