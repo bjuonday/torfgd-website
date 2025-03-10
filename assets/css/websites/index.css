@@ -1,9 +1,9 @@
 
 .videobg.test {
-    background: linear-gradient(0deg,var(--gray-dark),#61686e);
+    background: linear-gradient(0deg,#43484d,#808a92);
 }
 .featurescontainer.test {
-    background: linear-gradient(0deg,rgb(158, 77, 77) 55%,var(--dark),var(--gray-dark));
+    background: linear-gradient(0deg,rgb(158, 77, 77) 55%,#43484d);
 }
 .videobg .bg {
     z-index: 5;

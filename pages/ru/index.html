@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Танки Онлайн Архивы</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="english">
     <div class="info warning">
@@ -13,15 +14,19 @@
     </div>
     <div class="navbar">
         <div class="links">
-            <a href="websites"><div id="link-wjpdRYPJjY" class="link">Вебсайты</div></a>
-            <a href="previews"><div id="link-HZyCSJWygx" class="link">Превью</div></a>
+            <a href="websites/"><div id="link-wjpdRYPJjY" class="link">
+                <i class="fa fa-globe" aria-hidden="true"></i> 
+                Вебсайты</div></a>
+            <a href="#"><div id="link-HZyCSJWygx" class="link">
+                <i class="fa fa-sitemap" aria-hidden="true"></i> 
+                Превью</div></a>
         </div>
         <div class="languages">
 
             <div class="dropdown">
-                <button class="ddbutton">🇷🇺 <span id="language-text">RU</span></button>
+                <button id="ddbutton" class="ddbutton">🇷🇺 <span id="language-text">RU</span></button>
                 <div class="dropdown-content" id="myDropdown">
-                <button class="langbutton" onclick="document.location='../en'">🇬🇧 EN</button>
+                <button id="switchlang" onclick="document.location='../en/'">🇬🇧 EN</button>
                 </div>
             </div>
 
@@ -30,12 +35,12 @@
     <div class="videobg">
         <div id="video" hidden>
             <video class="videob" preload="auto" height="100%" autoplay muted>
-                <source src="/assets/videos/trailer.mp4" type="video/mp4">
+                <source src="../../assets/videos/trailer.mp4" type="video/mp4">
             </video>
         </div>
         <div class="examplevideotext"><code>[пример видео]</code></div>
         <div class="logo">
-            Танки Онлайн<i class="icon"></i><br>
+            <span>Танки Онлайн <i class="fa fa-book" aria-hidden="true"></i></span><br>
             <span class="slogan">Архивы</span><br>
             <div class="description">Вы попали на архив игры «Танки Онлайн».</div>
         </div>
@@ -44,7 +49,7 @@
     </div>
 
     <div class="featurescontainer" id="secondBox">
-        <a href="#"><img class="webpage" src="/assets/images/websites/web.png"></a>
+        <a href="websites/"><img class="webpage" src="../../assets/images/websites/web.png"></a>
         <div class="providen">
         <h1 class="title">Свобода выбора.</h1>
         <span class="description">Здесь собран архив сайтов и некоторых проектов по старым Танкам Онлайн.</span>
@@ -52,18 +57,18 @@
     </div>
     <div class="featurescontainert" id="thirdBox">
         <div class="providen">
-        <h1 class="title">Всего виде.</h1>
+        <h1 class="title">В полном виде.</h1>
         <span class="description">Эти проекты являются некоммерческими и сделаны ради<br>
             ностальгии по былым временам в Танках Онлайн.</span>
         </div>
-        <a href="#"><img class="toviewer" src="/assets/images/toviewer/toviewer.png"></a>
+        <a href="#"><img class="toviewer" src="../../assets/images/toviewer/toviewer.png"></a>
     </div>
     <code>
         <footer>
             <span class="left">© 2013-24 МурСаковск.</span>
             <span>Все права защищены. «Танки Онлайн» являются торговыми марками по компании alternativa.games.</span>
             <span class="right">Разработано kzzq.</span>
-            <img class="logotip" src="/assets/images/logo-kzzq.png">
+            <img class="logotip" src="../../assets/images/logo-kzzq.png">
         </footer>
     </code>
 </body>
